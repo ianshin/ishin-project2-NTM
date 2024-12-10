@@ -1,0 +1,60 @@
+Simulating NTM: a*b*c* Nondeterministic
+Input string: abc
+
+Initial configuration: [left='', state='q0', right='abc']
+String accepted at depth 4.
+Path to acceptance:
+Depth 4: ['abc_', 'qacc', '_']
+Depth 4: ['abc_', 'qacc', '_']
+
+--- Simulation Summary ---
+Result: Accepted
+Configurations explored: 16
+Depth of configuration tree: 4
+Average nondeterminism: 1.00
+--------------------------
+
+Simulating NTM: a*b*c* Nondeterministic
+Input string: abcc
+
+Initial configuration: [left='', state='q0', right='abcc']
+String accepted at depth 5.
+Path to acceptance:
+Depth 5: ['abcc_', 'qacc', '_']
+Depth 5: ['abcc_', 'qacc', '_']
+
+--- Simulation Summary ---
+Result: Accepted
+Configurations explored: 20
+Depth of configuration tree: 5
+Average nondeterminism: 1.00
+--------------------------
+
+Simulating NTM: a*b*c* Nondeterministic
+Input string: abccc
+
+Initial configuration: [left='', state='q0', right='abccc']
+String accepted at depth 6.
+Path to acceptance:
+Depth 6: ['abccc_', 'qacc', '_']
+Depth 6: ['abccc_', 'qacc', '_']
+
+--- Simulation Summary ---
+Result: Accepted
+Configurations explored: 24
+Depth of configuration tree: 6
+Average nondeterminism: 1.00
+--------------------------
+
+Simulating NTM: a*b*c* Nondeterministic
+Input string: ab
+
+Initial configuration: [left='', state='q0', right='ab']
+
+--- Simulation Summary ---
+Result: Rejected
+Configurations explored: 1
+Depth of configuration tree: 0
+Average nondeterminism: 1.00
+--------------------------
+

@@ -1,0 +1,56 @@
+Simulating NTM: {w | w has the same number of 0's and 1's} Nondeterministic
+Input string: aaa
+
+Initial configuration: [left='', state='q0', right='aaa']
+Rejected at depth 0
+
+--- Simulation Summary ---
+Result: Rejected
+Configurations explored: 1
+Depth of configuration tree: 0
+Average nondeterminism: 1.00
+--------------------------
+Simulating NTM: {w | w has the same number of 0's and 1's} Nondeterministic
+Input string: 0011
+
+Initial configuration: [left='', state='q0', right='0011']
+String accepted at depth 4.
+Path to acceptance:
+Depth 4: ['', 'qacc', '_']
+
+--- Simulation Summary ---
+Result: Accepted
+Configurations explored: 10
+Depth of configuration tree: 4
+Average nondeterminism: 2.50
+--------------------------
+
+Simulating NTM: {w | w has the same number of 0's and 1's} Nondeterministic
+Input string: 0101
+
+Initial configuration: [left='', state='q0', right='0101']
+String accepted at depth 4.
+Path to acceptance:
+Depth 4: ['', 'qacc', '_']
+
+--- Simulation Summary ---
+Result: Accepted
+Configurations explored: 12
+Depth of configuration tree: 4
+Average nondeterminism: 3.00
+--------------------------
+
+Simulating NTM: {w | w has the same number of 0's and 1's} Nondeterministic
+Input string: 000111
+
+Initial configuration: [left='', state='q0', right='000111']
+String accepted at depth 6.
+Path to acceptance:
+Depth 6: ['', 'qacc', '_']
+
+--- Simulation Summary ---
+Result: Accepted
+Configurations explored: 15
+Depth of configuration tree: 6
+Average nondeterminism: 2.50
+--------------------------

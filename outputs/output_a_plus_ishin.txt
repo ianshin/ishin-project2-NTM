@@ -1,0 +1,45 @@
+Simulating NTM: a plus
+Input string: a
+
+Initial configuration: [left='', state='q1', right='a']
+String accepted at depth 2.
+Path to acceptance:
+Depth 2: ['', 'q3', 'a__']
+
+--- Simulation Summary ---
+Result: Accepted
+Configurations explored: 4
+Depth of configuration tree: 2
+Average nondeterminism: 1.33
+--------------------------
+
+Simulating NTM: a plus
+Input string: aaa
+
+Initial configuration: [left='', state='q1', right='aaa']
+String accepted at depth 4.
+Path to acceptance:
+Depth 4: ['aa', 'q3', 'a__']
+
+--- Simulation Summary ---
+Result: Accepted
+Configurations explored: 8
+Depth of configuration tree: 4
+Average nondeterminism: 1.14
+--------------------------
+
+Simulating NTM: a plus
+Input string: aaaaa
+
+Initial configuration: [left='', state='q1', right='aaaaa']
+String accepted at depth 6.
+Path to acceptance:
+Depth 6: ['aaaa', 'q3', 'a__']
+
+--- Simulation Summary ---
+Result: Accepted
+Configurations explored: 12
+Depth of configuration tree: 6
+Average nondeterminism: 1.09
+--------------------------
+
